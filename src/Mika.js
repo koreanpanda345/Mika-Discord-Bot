@@ -28,7 +28,7 @@ module.exports = class Mika extends Client
 		/**
 		 * @type {string[]}
 		 */
-		this.commandCategories = ["miscellaneous", "profile"];
+		this.commandCategories = ["miscellaneous", "profile", "dev", "economy", "moderation"];
 		/**
 		 * @type {string[]}
 		 */

@@ -12,30 +12,31 @@ module.exports = class BackgroundShop extends AirtableBase
 	 */
 	async getAllOfTheBackgrounds()
 	{
-		let result = await new Promise((resolve, reject) =>
+		let result = await new Promise(async (resolve, reject) =>
 		{
-			this.base("Backgrounds").select({maxRecords: 100, sort: [{field: "price", direction: "asc"}]})
+			await this.base("Backgrounds").select({maxRecords: 100})
 			.eachPage((records, _) =>
 			{
-				let price = [];
-				let bg = [];
-				let bgName = [];
-				let _nitro = [];
-				let _dev = [];
-				let _staff = [];
+                let data = [];
 				records.forEach(record =>
 				{
-					bg.push(record.get("url"));
-					bgName.push(record.get("Name"));
-					price.push(record.get("price"));
-					_nitro.push(record.get("Nitro"));
-					_dev.push(record.get("Dev"));
-					_staff.push(record.get("Staff"));
+                    data.push(
+                        {
+                            id: record.get("ID"),
+                            name: record.get("Name"),
+                            url: record.get("url"),
+                            price: record.get("price"),
+                            dev: record.get("Dev"),
+                            staff: record.get("Staff"),
+                            nitro: record.get("Nitro"),
+                        }
+                    );
 				});
-				return resolve({price: price, bg: bg, bgName: bgName, nitro: _nitro, dev: _dev, staff: _staff});
+                console.debug(data);
+				return resolve(data);
 			});
 		});
 
 		return result;
 	}
-}
+};

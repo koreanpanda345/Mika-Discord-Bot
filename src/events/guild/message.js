@@ -3,8 +3,7 @@ const { Message, MessageEmbed } = require("discord.js");
 const CommandContextBase = require("../../base/CommandContextBase");
 const UserProfile = require("../../database/UserProfile");
 const XpSystem = require("../../systems/XpSystem");
-
-
+const MongoBase = require("../../base/MongoBase");
 module.exports = class MessageEvent extends EventBase
 {
 	constructor(client)
@@ -18,11 +17,17 @@ module.exports = class MessageEvent extends EventBase
 	async invoke(message)
 	{
 		if(message.author.bot || message.channel.type === "dm") return;
-		if(message.channel.id !== "759388434216517632")
+        const mongoBase = new MongoBase();
+        if((await mongoBase.getUserData(message.author.id)).username !== message.author.username)
+            await mongoBase.updateUserData(message.author.id, (user) =>
+            {
+                user.username = message.author.username;
+
+                user.save().catch(err => console.error(err));
+            });
+        //console.debug(await mongoBase.getUserData(message.author.id));
+		if(!["732253194721427496", "759388434216517632", "747462348977209436"].includes(message.channel.id))
 		{
-			if(!await new UserProfile().checkIfDataExist(message.author.id))
-				await new UserProfile().createUserData(message.author.id);
-			// console.debug(await new UserProfile().getUserData("304446682081525772"));
 			await new XpSystem(message.author.id).addXp(1);
 			if(await new XpSystem(message.author.id).canLevelUp())
 			{
@@ -30,13 +35,73 @@ module.exports = class MessageEvent extends EventBase
 				embed.setTitle("Level Up");
 				embed.setColor(0xa1dbff);
 				await new XpSystem(message.author.id).LevelUp();
-				let user = await new UserProfile().getUserData(message.author.id);
-				embed.setDescription(`You are level ${user.level}`);
+				let user = await mongoBase.getUserData(message.author.id);
+				embed.setDescription(`You are level ${user.lvl}`);
 				embed.setThumbnail(message.author.displayAvatarURL());
 
-				message.channel.send(embed);
+				message.channel.send(embed).then(async msg =>
+        {
+          await msg.delete({timeout: 30000});
+        });
 			}
 		}
+    if(message.mentions.users.size)
+    {
+
+      let user = message.mentions.users.first();
+      if(await mongoBase.getAfk(message.author.id) !== false)
+      {
+
+        let pinger = message.author.id;
+        let content = message.content;
+        let time = new Date(Date.now());
+
+        await mongoBase.updateAfk(user.id, (user) =>
+        {
+            user.pings.push({author: pinger, content: content, time: time});
+            user.save().catch(error => console.error(error));
+        });
+        let afk = await mongoBase.getAfk(user.id);
+        let embed = new MessageEmbed();
+        embed.setTitle("They are afk.");
+        embed.setDescription(`Reason: ${afk.reason}\n I will let them know them know what you pinged them for.`);
+        embed.addField("Message", message.content);
+        embed.setColor("RANDOM");
+        message.channel.send(embed).then(async msg =>
+        {
+          await msg.delete({timeout: 10000});
+        });
+      }
+    }
+    if(await mongoBase.getAfk(message.author.id) !== false)
+    {
+        let afk = await mongoBase.getAfk(message.author.id);
+      let embed = new MessageEmbed();
+      embed.setTitle(`${(afk.pings.length ? "Some messages that pinged you" : "Nothing happened while you were away")}`);
+      embed.setDescription("Btw I removed your afk status.");
+      
+      for(let msg of afk.pings)
+      {
+          let user;
+        if(msg.author !== undefined)
+            user = message.client.users.cache.get(msg.author);
+        embed.addField(`Author: ${user !== undefined ? user.username : "--"}\nAt: ${msg.time}`, msg.content);
+      }
+      embed.setColor("RANDOM");
+      message.channel.send(embed).then(async msg =>
+      {
+        await msg.delete({timeout: 60000});
+      })
+
+      let nickname = message.member.nickname;
+        if(nickname !== null)
+        {
+        nickname = nickname.replace("[🌸]", "").trim();
+        message.member.setNickname(nickname);
+        }
+      mongoBase.deleteAfk(message.author.id);
+    }
+    
 		if(message.content.toLowerCase().startsWith(process.env.PREFIX))
 		{
 			const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/);
@@ -95,7 +160,7 @@ module.exports = class MessageEvent extends EventBase
 					pass = false;
 					return ctx.sendMessage("Something happened in the Precondition check.");
 				}
-				pass = true;
+				else pass = true;
 			});
 
 			if(!pass)
@@ -103,7 +168,8 @@ module.exports = class MessageEvent extends EventBase
 
 			try
 			{
-				await command.invoke(ctx);
+        if(pass)
+				  await command.invoke(ctx);
 			}
 			catch(error)
 			{

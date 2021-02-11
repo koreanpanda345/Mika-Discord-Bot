@@ -1,0 +1,765 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|INFO LOG FILE OF 2021-01-16T03:32:20+00:00|------------------------------------------------
+                                          -------------------------------------------
+(January 16 2021, 3:32:20 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 3:32:20 am)	[INFO]	Command help was loaded.
+(January 16 2021, 3:32:20 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 3:32:20 am)	[INFO]	Command background was loaded.
+(January 16 2021, 3:32:20 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 3:32:20 am)	[INFO]	Command description was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command load was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Event message was loaded.
+(January 16 2021, 3:32:21 am)	[INFO]	Loaded all files.
+(January 16 2021, 3:32:21 am)	[INFO]	Mika is ready.
+(January 16 2021, 3:50:02 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command help was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command background was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command description was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command load was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Event message was loaded.
+(January 16 2021, 3:50:02 am)	[INFO]	Loaded all files.
+(January 16 2021, 3:50:03 am)	[INFO]	Mika is ready.
+(January 16 2021, 4:08:59 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command help was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command background was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command description was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command load was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Event message was loaded.
+(January 16 2021, 4:08:59 am)	[INFO]	Loaded all files.
+(January 16 2021, 4:09:00 am)	[INFO]	Mika is ready.
+(January 16 2021, 4:10:06 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command help was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command background was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command description was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command load was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Event message was loaded.
+(January 16 2021, 4:10:06 am)	[INFO]	Loaded all files.
+(January 16 2021, 4:10:07 am)	[INFO]	Mika is ready.
+(January 16 2021, 4:11:09 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 4:11:09 am)	[INFO]	Command help was loaded.
+(January 16 2021, 4:11:09 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command help was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command background was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command description was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command load was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Event message was loaded.
+(January 16 2021, 4:11:22 am)	[INFO]	Loaded all files.
+(January 16 2021, 4:11:23 am)	[INFO]	Mika is ready.
+(January 16 2021, 5:31:02 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command help was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command background was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command description was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command load was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 5:31:02 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 5:31:03 am)	[INFO]	Event message was loaded.
+(January 16 2021, 5:31:03 am)	[INFO]	Loaded all files.
+(January 16 2021, 5:31:05 am)	[INFO]	Mika is ready.
+(January 16 2021, 5:33:15 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command help was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command background was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command description was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command load was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 5:33:15 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Event message was loaded.
+(January 16 2021, 5:33:16 am)	[INFO]	Loaded all files.
+(January 16 2021, 5:33:17 am)	[INFO]	Mika is ready.
+(January 16 2021, 5:36:29 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command help was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command background was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command description was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command load was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 5:36:29 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Event message was loaded.
+(January 16 2021, 5:36:30 am)	[INFO]	Loaded all files.
+(January 16 2021, 5:36:30 am)	[INFO]	Mika is ready.
+(January 16 2021, 5:36:57 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 5:36:57 am)	[INFO]	Command help was loaded.
+(January 16 2021, 5:36:57 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 5:36:57 am)	[INFO]	Command background was loaded.
+(January 16 2021, 5:36:57 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 5:36:57 am)	[INFO]	Command description was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command load was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Event message was loaded.
+(January 16 2021, 5:36:58 am)	[INFO]	Loaded all files.
+(January 16 2021, 5:36:58 am)	[INFO]	Mika is ready.
+(January 16 2021, 5:37:11 am)	[INFO]	Command afk was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command help was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command latency was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command background was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command birthday was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command description was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command profile was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command load was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command reload was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command unload was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command balance was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command daily was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Command vote was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Event ready was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Event message was loaded.
+(January 16 2021, 5:37:11 am)	[INFO]	Loaded all files.
+(January 16 2021, 5:37:12 am)	[INFO]	Mika is ready.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 6:22:00 pm)	[INFO]	Loaded all files.
+(January 16 2021, 6:22:01 pm)	[INFO]	Mika is ready.
+(January 16 2021, 7:32:48 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 7:32:49 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 7:33:18 pm)	[INFO]	Loaded all files.
+(January 16 2021, 7:33:19 pm)	[INFO]	Mika is ready.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 7:33:46 pm)	[INFO]	Loaded all files.
+(January 16 2021, 7:33:46 pm)	[INFO]	Mika is ready.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 7:43:01 pm)	[INFO]	Loaded all files.
+(January 16 2021, 7:43:02 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:32:18 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:32:19 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:32:19 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:32:20 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:35:49 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:35:49 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:35:49 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:35:50 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:35:51 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:35:51 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:35:51 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:42:10 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:42:11 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:42:11 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:42:12 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:42:51 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:42:52 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:42:53 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:42:53 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:42:53 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:44:21 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:44:22 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:44:22 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:44:23 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:45:34 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:45:36 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:45:36 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:45:36 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:45:54 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:45:55 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:45:55 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:45:56 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:50:58 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:50:59 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:50:59 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:51:00 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:54:05 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:54:08 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:54:08 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:54:09 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:54:39 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:54:41 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:54:41 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:54:41 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:56:55 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:56:55 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:56:55 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:56:55 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:56:56 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:57:08 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:57:10 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:57:10 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:57:10 pm)	[INFO]	Mika is ready.
+(January 16 2021, 9:59:02 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 9:59:02 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 9:59:02 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 9:59:02 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 9:59:03 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 9:59:04 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 9:59:04 pm)	[INFO]	Loaded all files.
+(January 16 2021, 9:59:04 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:04:07 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:04:08 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:04:09 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:04:09 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:04:09 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:04:39 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:04:40 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:04:40 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:04:41 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:24:02 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:24:02 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:24:02 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:24:03 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:24:03 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:24:03 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:24:04 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:24:33 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:24:34 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:24:59 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:25:00 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:25:31 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:25:31 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:25:31 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:25:32 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:25:32 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:25:54 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:25:55 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:27:42 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:27:43 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:27:59 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:28:00 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:32:06 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:32:07 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:32:34 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:32:35 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:32:35 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:33:55 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:33:56 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:37:31 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:37:32 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:37:32 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:40:15 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:40:16 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:42:07 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:42:08 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:45:13 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:45:13 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:45:13 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:45:14 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:45:14 pm)	[INFO]	Mika is ready.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command afk was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command help was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command latency was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command background was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command birthday was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command description was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command profile was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command load was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command reload was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command unload was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command balance was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command daily was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Command vote was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Event ready was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Event message was loaded.
+(January 16 2021, 10:58:54 pm)	[INFO]	Loaded all files.
+(January 16 2021, 10:58:55 pm)	[INFO]	Mika is ready.

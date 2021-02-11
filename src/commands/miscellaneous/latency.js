@@ -21,12 +21,17 @@ module.exports = class LatencyCommand extends CommandBase
 	 */
 	async invoke(ctx)
 	{
-		const latency = this.client.ws.ping;
 		const embed = new MessageEmbed();
-		embed.setTitle("Pong!");
-		embed.setDescription(`My latency is ${latency} ms!`);
-		embed.setColor(`${(latency < 100 ? "GREEN" : latency < 200 ? "ORANGE" : "RED")}`);
+    let start = Date.now();
+		embed.setTitle("Pong");
 
-		ctx.sendMessage(embed);
+		ctx.sendMessage(embed).then(async msg =>
+    {
+      let end = Date.now() - start;
+      embed.setDescription(`WS Latency: ${this.client.ws.ping}\nREST Latency: ${end} ms!`);
+      embed.setColor(end < 100 ? "GREEN" : end < 200 ? "ORANGE" : "RED");
+      msg.edit(embed);
+      await msg.delete({timeout: 60000});
+    });
 	}
 }

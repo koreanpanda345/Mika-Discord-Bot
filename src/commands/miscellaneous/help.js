@@ -63,6 +63,9 @@ module.exports = class HelpCommand extends CommandBase
 			embed.setColor("RANDOM");
 		}
 
-		ctx.sendMessage(embed);
+		ctx.sendMessage(embed).then(async msg =>
+    {
+      await msg.delete({timeout: 60000});
+    });
 	}
 }

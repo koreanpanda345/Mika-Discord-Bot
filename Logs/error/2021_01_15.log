@@ -1,0 +1,172 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|ERROR LOG FILE OF 2021-01-15T03:44:13+00:00|------------------------------------------------
+                                          -------------------------------------------
+(January 15 2021, 3:44:13 am)	[ERROR]	TypeError
+AfkDb.checkIfUserIsAfk is not a constructor
+TypeError: AfkDb.checkIfUserIsAfk is not a constructor
+    at AfkSystem.checkIfUserIsAfk (/home/runner/Mika-Discord-Bot/src/systems/AfkSystem.js:8:18)
+    at AfkCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/miscellaneous/afk.js:27:19)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:121:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 5:31:44 am)	[ERROR]	ReferenceError
+args is not defined
+ReferenceError: args is not defined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:109:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:32:08 am)	[ERROR]	ReferenceError
+Cannot access 'bg' before initialization
+ReferenceError: Cannot access 'bg' before initialization
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:109:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:32:56 am)	[ERROR]	TypeError
+ctx.guild.roles.find is not a function
+TypeError: ctx.guild.roles.find is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:112:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:33:21 am)	[ERROR]	TypeError
+user.ownBgName.push(...).join is not a function
+TypeError: user.ownBgName.push(...).join is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:131:79)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:34:27 am)	[ERROR]	ReferenceError
+ownBgName is not defined
+ReferenceError: ownBgName is not defined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:132:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:34:44 am)	[ERROR]	TypeError
+user.ownBgName.join is not a function
+TypeError: user.ownBgName.join is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:134:119)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 5:36:15 am)	[ERROR]	TypeError
+user.ownBgName.join is not a function
+TypeError: user.ownBgName.join is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:135:119)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:145:5)
+(January 15 2021, 7:25:44 pm)	[ERROR]	Error
+Cannot find module '../Miscellaneous/latency.js'
+Require stack:
+- /home/runner/Mika-Discord-Bot/src/commands/dev/reload.js
+- /home/runner/Mika-Discord-Bot/src/managers/CommandManager.js
+- /home/runner/Mika-Discord-Bot/src/Mika.js
+- /home/runner/Mika-Discord-Bot/src/index.js
+Error: Cannot find module '../Miscellaneous/latency.js'
+Require stack:
+- /home/runner/Mika-Discord-Bot/src/commands/dev/reload.js
+- /home/runner/Mika-Discord-Bot/src/managers/CommandManager.js
+- /home/runner/Mika-Discord-Bot/src/Mika.js
+- /home/runner/Mika-Discord-Bot/src/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at ReloadCommands.invoke (/home/runner/Mika-Discord-Bot/src/commands/dev/reload.js:34:26)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:143:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 7:26:37 pm)	[ERROR]	TypeError
+Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at ReloadCommands.invoke (/home/runner/Mika-Discord-Bot/src/commands/dev/reload.js:35:49)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:143:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 7:27:54 pm)	[ERROR]	TypeError
+Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at ReloadCommands.invoke (/home/runner/Mika-Discord-Bot/src/commands/dev/reload.js:36:49)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:143:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 8:01:57 pm)	[ERROR]	TypeError
+Cannot read property 'username' of undefined
+TypeError: Cannot read property 'username' of undefined
+    at BalanceCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/balance.js:34:28)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 8:34:07 pm)	[ERROR]	SyntaxError
+Unexpected token ')'
+/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:51
+        `Please wait ${(timeLeftHours >= 1 ? `${timeLeftHours} Hours `: "")}${(timeLeftMinutes >= 1 ? `${timeLeftMinutes} Minutes `)}${timeLeftSeconds} Second(s) before using this command again.`
+                                                                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at LoadCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/dev/load.js:34:27)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:21)
+    at runMicrotasks (<anonymous>)
+(January 15 2021, 8:35:03 pm)	[ERROR]	SyntaxError
+missing ) after argument list
+/home/runner/Mika-Discord-Bot/src/database/Cooldowns.js:11
+      return resolve(await super.getData("Cooldowns", `{userId} = '${userId}'`, (record =>
+                     ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:5:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+(January 15 2021, 8:36:18 pm)	[ERROR]	SyntaxError
+missing ) after argument list
+/home/runner/Mika-Discord-Bot/src/database/Cooldowns.js:11
+      return resolve(await super.getData("Cooldowns", `{userId} = '${userId}'`, (record) =>
+                     ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:5:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+(January 15 2021, 8:37:49 pm)	[ERROR]	TypeError
+cd.checkIfUserHasCooldowns is not a function
+TypeError: cd.checkIfUserHasCooldowns is not a function
+    at VoteCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:39:18)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 15 2021, 8:38:34 pm)	[ERROR]	TypeError
+Cannot create property 'votes' on boolean 'false'
+TypeError: Cannot create property 'votes' on boolean 'false'
+    at VoteCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:60:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:7)
+(January 15 2021, 8:39:17 pm)	[ERROR]	ReferenceError
+Invalid left-hand side in assignment
+ReferenceError: Invalid left-hand side in assignment
+    at EconomySystem.addToBalance (/home/runner/Mika-Discord-Bot/src/systems/EconomySystem.js:21:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async VoteCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:64:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:7)
+(January 15 2021, 8:40:20 pm)	[ERROR]	TypeError
+cd.updateCooldowns is not a function
+TypeError: cd.updateCooldowns is not a function
+    at VoteCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:66:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:144:7)

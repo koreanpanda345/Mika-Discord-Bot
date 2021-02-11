@@ -1,0 +1,134 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|ERROR LOG FILE OF 2021-01-17T01:59:03+00:00|------------------------------------------------
+                                          -------------------------------------------
+(January 17 2021, 1:59:03 am)	[ERROR]	ReferenceError
+userId is not defined
+ReferenceError: userId is not defined
+    at DailyCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/daily.js:50:38)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 17 2021, 2:00:18 am)	[ERROR]	ReferenceError
+cooldowns is not defined
+ReferenceError: cooldowns is not defined
+    at DailyCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/daily.js:24:30)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 17 2021, 5:32:59 am)	[ERROR]	TypeError
+profile.own_bg.has is not a function
+TypeError: profile.own_bg.has is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:48:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:34:56 am)	[ERROR]	TypeError
+profile.own_bg.has is not a function
+TypeError: profile.own_bg.has is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:48:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:36:23 am)	[ERROR]	TypeError
+profile.own_bg.has is not a function
+TypeError: profile.own_bg.has is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:49:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:40:25 am)	[ERROR]	TypeError
+profile.own_bg.has is not a function
+TypeError: profile.own_bg.has is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:49:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:41:29 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:48:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:41:53 am)	[ERROR]	TypeError
+Cannot read property '_id' of undefined
+TypeError: Cannot read property '_id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:48:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:43:07 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:48:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:43:41 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:49:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:44:04 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:50:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:44:46 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:50:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:46:00 am)	[ERROR]	TypeError
+Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:50:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:47:00 am)	[ERROR]	TypeError
+Cannot read property 'toLowerCase' of undefined
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:66:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:52:00 am)	[ERROR]	TypeError
+mongoDb.getUserBackground is not a function
+TypeError: mongoDb.getUserBackground is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:89:49)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:52:25 am)	[ERROR]	ReferenceError
+n is not defined
+ReferenceError: n is not defined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:71:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:54:57 am)	[ERROR]	TypeError
+Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:69:80)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 5:56:28 am)	[ERROR]	TypeError
+mongoDb.getBackground is not a function
+TypeError: mongoDb.getBackground is not a function
+    at BackgroundCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/background.js:102:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:7)
+(January 17 2021, 6:07:14 am)	[ERROR]	TypeError
+mongoDb.getProfile is not a constructor
+TypeError: mongoDb.getProfile is not a constructor
+    at ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:36:29)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 17 2021, 6:07:37 am)	[ERROR]	TypeError
+mongoDb is not a constructor
+TypeError: mongoDb is not a constructor
+    at ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:36:29)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(January 17 2021, 6:07:56 am)	[ERROR]	TypeError
+mongoDb is not a constructor
+TypeError: mongoDb is not a constructor
+    at ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:36:29)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:167:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

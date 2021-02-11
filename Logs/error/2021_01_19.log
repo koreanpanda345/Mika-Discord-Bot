@@ -1,0 +1,13 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|ERROR LOG FILE OF 2021-01-19T01:51:25+00:00|------------------------------------------------
+                                          -------------------------------------------
+(January 19 2021, 1:51:25 am)	[ERROR]	ReferenceError
+Cannot access 'date' before initialization
+ReferenceError: Cannot access 'date' before initialization
+    at BirthdayCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/birthday.js:28:47)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:170:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

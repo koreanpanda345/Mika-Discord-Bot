@@ -1,6 +1,6 @@
 {
   "overwrite-config": false,
-  "write-logs": false,
+  "write-logs": true,
   "one-file": false,
   "log-paths": {
     "error": "./Logs/error",

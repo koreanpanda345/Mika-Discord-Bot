@@ -1,5 +1,4 @@
 const AirtableBase = require("../base/AirtableBase");
-const Record = require("airtable/lib/record");
 
 module.exports = class UserProfile extends AirtableBase
 {
@@ -8,16 +7,14 @@ module.exports = class UserProfile extends AirtableBase
 	{
 		let result = await new Promise(async (resolve) =>
 		{
-			return resolve(await super.checkData("Users", `ID = ${userId}`));
+			return resolve(await super.checkData("Users", `{ID} = '${userId}'`));
 		});
 
 		return result;
 	}
-	async createUserData(userId)
-	{
-		let result = await new Promise(async (resolve) =>
-		{
-			return resolve(await super.createData("Users", {
+  createUserData(userId)
+	{ 
+    super.createData("Users", {
 				fields: {
 					ID: userId,
 					balance: 200,
@@ -31,14 +28,13 @@ module.exports = class UserProfile extends AirtableBase
 					ownBgName: "Default-Pink",
 					ownBgUrl: "https://i.imgur.com/VI1bAUr.jpg"
 				}
-			}))
 		})
 	}
 	async getUserData(userId)
 	{
 		let user = await new Promise(async (resolve) =>
 		{
-			return resolve(await super.getData("Users", `ID = ${userId}`,
+			return resolve(await super.getData("Users", `{ID} = '${userId}'`,
 			(record) =>
 			{
 				return{
@@ -57,6 +53,9 @@ module.exports = class UserProfile extends AirtableBase
 				};
 			}));
 		});
+
+
+
 		return user;
 	}
 

@@ -1,0 +1,127 @@
+                                                ____                 _ __          
+                                               /  _/__  ___ ________(_) /  ___ ____
+                                              _/ // _ \(_-</ __/ __/ / _ \/ -_) __/
+                                             /___/_//_/___/\__/_/ /_/_.__/\__/_/   
+                                          -------------------------------------------
+-----------------------------------------|ERROR LOG FILE OF 2021-01-16T03:48:38+00:00|------------------------------------------------
+                                          -------------------------------------------
+(January 16 2021, 3:48:38 am)	[ERROR]	TypeError
+Cannot create property 'vote' on boolean 'false'
+TypeError: Cannot create property 'vote' on boolean 'false'
+    at VoteCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/vote.js:65:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:48:59 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:49:03 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:49:29 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:49:42 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:56:50 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:57:01 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:57:14 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:58:22 am)	[ERROR]	TypeError
+Cannot create property 'daily' on boolean 'false'
+TypeError: Cannot create property 'daily' on boolean 'false'
+    at DailyCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/daily.js:58:18)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 3:59:01 am)	[ERROR]	TypeError
+Cannot create property 'daily' on boolean 'false'
+TypeError: Cannot create property 'daily' on boolean 'false'
+    at DailyCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/daily.js:58:18)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 7:00:54 am)	[ERROR]	DiscordAPIError
+Unknown Message
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Mika-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
+    at async /home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:54:7
+    at async ProfileCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/profile/profile.js:52:3)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:161:7)
+(January 16 2021, 7:44:08 pm)	[ERROR]	TypeError
+Cannot create property 'daily' on boolean 'false'
+TypeError: Cannot create property 'daily' on boolean 'false'
+    at DailyCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/economy/daily.js:53:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:162:7)
+(January 16 2021, 10:24:43 pm)	[ERROR]	ReferenceError
+AfkSystem is not defined
+ReferenceError: AfkSystem is not defined
+    at AfkCommand.invoke (/home/runner/Mika-Discord-Bot/src/commands/miscellaneous/afk.js:27:15)
+    at MessageEvent.invoke (/home/runner/Mika-Discord-Bot/src/events/guild/message.js:164:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
