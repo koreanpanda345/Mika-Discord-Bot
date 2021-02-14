@@ -1,7 +1,7 @@
 const CommandBase = require("../../base/CommandBase");
 const CommandContextBase = require("../../base/CommandContextBase");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
+const AfkDb = require("../../database/mongodb/AfkDb");
+const db = new AfkDb();
 const {MessageEmbed} = require("discord.js");
 module.exports = class AfkCommand extends CommandBase
 {
@@ -25,9 +25,9 @@ module.exports = class AfkCommand extends CommandBase
     if(!msg) afkMsg = "AFK";
     else afkMsg = msg;
 
-    if(await mongoDb.getAfk(ctx.userId) === false)
+    if(await db.get(ctx.userId) === false)
     {
-      await mongoDb.updateAfk(ctx.userId, (user) =>
+      await db.update(ctx.userId, (user) =>
       {
           user.reason = afkMsg;
 

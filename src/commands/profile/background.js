@@ -1,10 +1,10 @@
 const CommandBase = require("../../base/CommandBase");
 const CommandContextBase = require("../../base/CommandContextBase");
-const BackgroundShop = require("../../database/BackgroundShop");
 const { MessageEmbed } = require("discord.js");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
-const { base } = require("airtable");
+const BackgroundDb = require("../../database/mongodb/BackgroundDb");
+const backgroundDb = new BackgroundDb();
+const ProfileDb = require("../../database/mongodb/ProfileDb");
+const profileDb = new ProfileDb();
 
 module.exports = class BackgroundCommand extends CommandBase
 {
@@ -38,8 +38,8 @@ module.exports = class BackgroundCommand extends CommandBase
         let page = 1;
         let desc = "";
         let pageAmount = 10;
-        let backgrounds = await mongoDb.getAllBackgrounds();
-        let profile = await mongoDb.getProfile(ctx.userId);
+        let backgrounds = await backgroundDb.getAll();
+        let profile = await profileDb.get(ctx.userId);
         for(let i = 0; i < Math.floor(Math.round(backgrounds.length / 10)); i++)
         {
             for(let n = 1 + pageAmount - 11; n < pageAmount; n++)
@@ -84,7 +84,7 @@ module.exports = class BackgroundCommand extends CommandBase
                 else
                     for(let bg of profile.own_bg)
                     {
-                        let _bg = await mongoDb.getUserBackgrounds(bg);
+                        let _bg = await backgroundDb.getUserBackground(bg);
                         _desc += `${_bg.id} - ${_bg.name}\n`;
                     }
                 embed.setDescription(_desc);
@@ -97,7 +97,7 @@ module.exports = class BackgroundCommand extends CommandBase
 				let nitroRole = ctx.guild.roles.cache.find(r => r.name === "Chonky Flowers");
 				let staffRole = ctx.guild.roles.cache.find(r => r.name === "Staff");
                 
-                let bg = await mongoDb.getBackgrounds(id);
+                let bg = await backgroundDb.get(id);
                 if(!bg) return ctx.sendMessage("There doesn't seem to be a background under that id.");
                 if((bg.dev && !ctx.member.roles.cache.has(devRole.id)) || ctx.userId !== "304446682081525772")
                     return ctx.sendMessage("Sorry, but this is a Developer Exclusive Background.");
@@ -108,7 +108,7 @@ module.exports = class BackgroundCommand extends CommandBase
                 if(profile.account.balance < bg.price)
                     return ctx.sendMessage("Sorry, but you do not have enough flower to buy this background.");
                 
-                await mongoDb.updateProfile(ctx.userId, (_profile) =>
+                await profileDb.update(ctx.userId, (_profile) =>
                 {
                     _profile.account.balance -= bg.price;
                     _profile.own_bg.push(bg);
@@ -124,7 +124,7 @@ module.exports = class BackgroundCommand extends CommandBase
             case "set":
                 let _bg = profile.own_bg.find(b => b.id === id);
                 if(!_bg) return ctx.sendMessage("Doesn't seem like you have that background.");
-                await mongoDb.updateProfile(ctx.userId, (_profile) =>
+                await profileDb.update(ctx.userId, (_profile) =>
                 {
                     _profile.background = _bg.url;
                     _profile.save().catch(err => console.error(err));

@@ -1,11 +1,8 @@
 const CommandBase = require("../../base/CommandBase");
-const CommandContextBase = require("../../base/CommandContextBase");
-const UserProfile = require("../../database/UserProfile");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
-const Cooldowns = require("../../database/Cooldowns");
 const { MessageEmbed } = require("discord.js");
-
+const CooldownDb = require("../../database/mongodb/CooldownDb");
+const EconomySystem = require("../../systems/EconomySystem");
+const cooldownDb = new CooldownDb();
 module.exports = class DailyCommand extends CommandBase {
     constructor(client) {
         super(client, {
@@ -17,11 +14,11 @@ module.exports = class DailyCommand extends CommandBase {
     }
 
     async invoke(ctx) {
-        if(await mongoDb.getCooldowns(ctx.userId) !== false)
+        if(await cooldownDb.get(ctx.userId) !== false)
         {
-            if((await mongoDb.getCooldowns(ctx.userId)).daily > Date.now())
+            if((await cooldownDb.get(ctx.userId)).daily > Date.now())
             {
-            const timeLeft = (await mongoDb.getCooldowns(ctx.userId)).daily - Date.now();
+            const timeLeft = (await cooldownDb.get(ctx.userId)).daily - Date.now();
             const timeLeftSeconds = (Math.floor((timeLeft / 1000) % 60));
             const timeLeftMinutes = (Math.floor((timeLeft / 1000 * 60) % 60));
             const timeLeftHours = (Math.floor((timeLeft / 1000 * 60 * 60) % 24));
@@ -34,11 +31,6 @@ module.exports = class DailyCommand extends CommandBase {
 
         let add = 1500;
 
-        await mongoDb.updateUserData(ctx.userId, (user) =>
-        {
-            user.balance += add;
-            user.save().catch(err => console.error(err));
-        });
 
         let embed = new MessageEmbed();
         const flower = ctx.guild.emojis.cache.find(e => e.id === "789692926216503326");
@@ -46,14 +38,10 @@ module.exports = class DailyCommand extends CommandBase {
         embed.setDescription(`You recieved ${add} ${flower}`);
         embed.setFooter(`You can claim ${add} ${flower} everyday`);
         embed.setColor(0xa1dbff);
+		
+		await new EconomySystem(ctx.userId).addToBalance(add);
 
-        await mongoDb.updateUserData(ctx.userId, (user) =>
-        {
-            user.balance += add;
-            user.save().catch(err => console.error(err));
-        });
-
-        await mongoDb.updateCooldowns(ctx.userId, (cooldown) =>
+        await cooldownDb.update(ctx.userId, (cooldown) =>
         {
             cooldown.daily = (Date.now() + 86400000);
 

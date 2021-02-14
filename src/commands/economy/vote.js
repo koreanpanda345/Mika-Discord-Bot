@@ -1,11 +1,11 @@
 const CommandBase = require("../../base/CommandBase");
 const CommandContextBase = require("../../base/CommandContextBase");
-const UserProfile = require("../../database/UserProfile");
 const EconomySystem = require("../../systems/EconomySystem");
-const Cooldowns = require("../../database/Cooldowns");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
 const {MessageEmbed} = require("discord.js");
+const CooldownDb = require("../../database/mongodb/CooldownDb");
+const cooldownDb = new CooldownDb();
+const ProfileDb = require("../../database/mongodb/ProfileDb");
+const profileDb = new ProfileDb();
 module.exports = class VoteCommand extends CommandBase
 {
   constructor(client)
@@ -27,7 +27,7 @@ module.exports = class VoteCommand extends CommandBase
             return ctx.sendMessage("Who do you want to vote for?");
         let member = ctx.message.mentions.members.first() || ctx.guild.members.cache.get(ctx.args[0]);
         if(member.user.bot) return ctx.sendMessage("This user is a bot. you can't vote for a bot.");
-        let cooldowns = await mongoDb.getCooldowns(ctx.userId);
+        let cooldowns = await cooldownDb.get(ctx.userId);
         if(cooldowns !== false)
         {
             if(cooldowns.vote > Date.now())
@@ -47,19 +47,15 @@ module.exports = class VoteCommand extends CommandBase
         const flower = ctx.guild.emojis.cache.find(e => e.id === "789692926216503326");
         const hug = ctx.guild.emojis.cache.find(e => e.id === "678791799749476363");
         if(member.id === ctx.userId) return ctx.sendMessage(`Find someone to vote for you ;-;. you can't vote for yourself, but heres a hug ${hug}`);
-        await mongoDb.updateProfile(member.id, (profile) =>
+        await profileDb.update(member.id, (profile) =>
         {
             profile.vote++;
             profile.save().catch(err => console.error(err));
         });
 
-        await mongoDb.updateUserData(ctx.userId, (user) =>
-        {
-            user.balance += money;
-            user.save().catch(err => console.error(err));
-        });
+		await new EconomySystem(ctx.userId).addToBalance(money);
 
-        await mongoDb.updateCooldowns(ctx.userId, (cd) =>
+        await cooldownDb.update(ctx.userId, (cd) =>
         {
             cd.vote = Date.now() + (43200 * 1000);
             cd.save().catch(err => console.error(err));

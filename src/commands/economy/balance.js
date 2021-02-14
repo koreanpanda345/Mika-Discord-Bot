@@ -1,7 +1,6 @@
 const CommandBase = require("../../base/CommandBase");
 const { MessageEmbed } = require("discord.js");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
+const EconomySystem = require("../../systems/EconomySystem");
 module.exports = class BalanceCommand extends CommandBase {
     constructor(client) {
         super(client, {
@@ -21,8 +20,8 @@ module.exports = class BalanceCommand extends CommandBase {
             user = ctx.message.mentions.users.first() || ctx.guild.members.cache.get(ctx.args[0]);
         let embed = new MessageEmbed();
         embed.setTitle(`${user.username}'s Balance`);
-        let account = await mongoDb.getUserData(user.id);
-        embed.setDescription(`Balance: ${account.balance} ${flowers}`);
+		let balance = await new EconomySystem(user.id).getBalance();
+        embed.setDescription(`Balance: ${balance} ${flowers}`);
         embed.setColor(0xa1dbff);
 
         ctx.sendMessage(embed).then(async msg => {

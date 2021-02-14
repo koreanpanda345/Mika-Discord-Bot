@@ -1,7 +1,7 @@
 const CommandBase = require("../../base/CommandBase");
 const CommandContextBase = require("../../base/CommandContextBase");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
+const ProfileDb = require("../../database/mongodb/ProfileDb");
+const profileDb = new ProfileDb();
 const { GuildMember, MessageAttachment } = require("discord.js");
 const ProfileCanvas = require("../../canvas/ProfileCanvas");
 
@@ -33,8 +33,8 @@ module.exports = class ProfileCommand extends CommandBase
 			user = ctx.message.mentions.members.first() || ctx.message.guild.members.get(ctx.args[0]);
 		else
 			user = ctx.member;
-        let profile = await mongoDb.getProfile(user.id);
-        let account = await mongoDb.getProfileAccount(profile.account);
+        let profile = await profileDb.get(user.id);
+        let account = await profileDb.getAccount(profile.account);
 		let buffer = await ProfileCanvas({member: user, background: profile.background, xp: account.xp, level: account.lvl, birthday: profile.birthday, description: profile.description, votes: profile.votes, marry: profile.marry}, ctx);
 
 		const filename = `profile-${ctx.userId}.png`;

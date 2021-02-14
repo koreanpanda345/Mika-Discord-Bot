@@ -1,4 +1,4 @@
-const AirtableBase = require("../base/AirtableBase");
+const AirtableBase = require("../../base/AirtableBase");
 
 
 module.exports = class BackgroundShop extends AirtableBase

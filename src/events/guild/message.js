@@ -1,9 +1,11 @@
 const EventBase = require("../../base/EventBase");
 const { Message, MessageEmbed } = require("discord.js");
 const CommandContextBase = require("../../base/CommandContextBase");
-const UserProfile = require("../../database/UserProfile");
 const XpSystem = require("../../systems/XpSystem");
-const MongoBase = require("../../base/MongoBase");
+const AfkDb = require("../../database/mongodb/AfkDb");
+const UserDb = require("../../database/mongodb/UserDb");
+const afkDb = new AfkDb();
+const userDb = new UserDb();
 module.exports = class MessageEvent extends EventBase
 {
 	constructor(client)
@@ -17,9 +19,8 @@ module.exports = class MessageEvent extends EventBase
 	async invoke(message)
 	{
 		if(message.author.bot || message.channel.type === "dm") return;
-        const mongoBase = new MongoBase();
-        if((await mongoBase.getUserData(message.author.id)).username !== message.author.username)
-            await mongoBase.updateUserData(message.author.id, (user) =>
+        if((await userDb.get(message.author.id)).username !== message.author.username)
+            await userDb.update(message.author.id, (user) =>
             {
                 user.username = message.author.username;
 
@@ -35,7 +36,7 @@ module.exports = class MessageEvent extends EventBase
 				embed.setTitle("Level Up");
 				embed.setColor(0xa1dbff);
 				await new XpSystem(message.author.id).LevelUp();
-				let user = await mongoBase.getUserData(message.author.id);
+				let user = await userDb.get(message.author.id);
 				embed.setDescription(`You are level ${user.lvl}`);
 				embed.setThumbnail(message.author.displayAvatarURL());
 
@@ -49,19 +50,19 @@ module.exports = class MessageEvent extends EventBase
     {
 
       let user = message.mentions.users.first();
-      if(await mongoBase.getAfk(message.author.id) !== false)
+      if(await afkDb.get(message.author.id) !== false)
       {
 
         let pinger = message.author.id;
         let content = message.content;
         let time = new Date(Date.now());
 
-        await mongoBase.updateAfk(user.id, (user) =>
+        await afkDb.update(user.id, (user) =>
         {
             user.pings.push({author: pinger, content: content, time: time});
             user.save().catch(error => console.error(error));
         });
-        let afk = await mongoBase.getAfk(user.id);
+        let afk = await afkDb.get(user.id);
         let embed = new MessageEmbed();
         embed.setTitle("They are afk.");
         embed.setDescription(`Reason: ${afk.reason}\n I will let them know them know what you pinged them for.`);
@@ -73,9 +74,9 @@ module.exports = class MessageEvent extends EventBase
         });
       }
     }
-    if(await mongoBase.getAfk(message.author.id) !== false)
+    if(await afkDb.get(message.author.id) !== false)
     {
-        let afk = await mongoBase.getAfk(message.author.id);
+        let afk = await afkDb.get(message.author.id);
       let embed = new MessageEmbed();
       embed.setTitle(`${(afk.pings.length ? "Some messages that pinged you" : "Nothing happened while you were away")}`);
       embed.setDescription("Btw I removed your afk status.");
@@ -99,7 +100,7 @@ module.exports = class MessageEvent extends EventBase
         nickname = nickname.replace("[🌸]", "").trim();
         message.member.setNickname(nickname);
         }
-      mongoBase.deleteAfk(message.author.id);
+    	afkDb.delete(message.author.id);
     }
     
 		if(message.content.toLowerCase().startsWith(process.env.PREFIX))

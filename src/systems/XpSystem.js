@@ -1,5 +1,5 @@
-const MongoBase = require("../base/MongoBase");
-const mongoDb = new MongoBase();
+const UserDb = require("../database/mongodb/UserDb");
+const db = new UserDb();
 module.exports = class XpSystem
 {
 	/**
@@ -17,7 +17,7 @@ module.exports = class XpSystem
 	async addXp(addXp)
 	{
 
-        await mongoDb.updateUserData(this.userId, (user) =>
+        await db.update(this.userId, (user) =>
         {
             user.xp += addXp;
 
@@ -27,14 +27,14 @@ module.exports = class XpSystem
 
 	async canLevelUp()
 	{
-		let data = await mongoDb.getUserData(this.userId);
+		let data = await db.get(this.userId);
 		return data.xp >= 50 * (Math.pow(data.lvl + 1, 2)) - (50 * (data.lvl + 1));
 	}
 
 	async LevelUp()
 	{
 
-        await mongoDb.updateUserData(this.userId, (user) =>
+        await db.update(this.userId, (user) =>
         {
             user.xp = 0;
             user.lvl++;

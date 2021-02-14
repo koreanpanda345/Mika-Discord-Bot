@@ -1,8 +1,6 @@
 const CommandBase = require("../../base/CommandBase");
-const CommandContextBase = require("../../base/CommandContextBase");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
-
+const ProfileDb = require("../../database/mongodb/ProfileDb");
+const profileDb = new ProfileDb();
 
 module.exports = class BirthdayCommand extends CommandBase
 {
@@ -29,7 +27,7 @@ module.exports = class BirthdayCommand extends CommandBase
             console.log(date.toString());
             if(date.toString() === "Invalid Date") return ctx.sendMessage("Sorry but that is a invalid date.");
             let utcDate = date.toDateString().split(" ");
-            await mongoDb.updateProfile(ctx.userId, (profile) =>
+            await profileDb.update(ctx.userId, (profile) =>
             {
                
                 profile.birthday = `${utcDate[1]} ${utcDate[2]}`;

@@ -1,8 +1,7 @@
 const CommandBase = require("../../base/CommandBase");
 const CommandContextBase = require("../../base/CommandContextBase");
-const UserProfile = require("../../database/UserProfile");
-const MongoBase = require("../../base/MongoBase");
-const mongoDb = new MongoBase();
+const ProfileDb = require("../../database/mongodb/ProfileDb");
+const profileDb = new ProfileDb();
 
 module.exports = class DescriptionCommand extends CommandBase
 {
@@ -25,7 +24,7 @@ module.exports = class DescriptionCommand extends CommandBase
 		if(!ctx.args[0]) return ctx.sendMessage("What would you like your description to be?");
 		let desc = ctx.args.join(" ").slice(0);
 		if(desc.length > 150) return ctx.sendMessage("Sorry, you can only have a max of 150 characters for your description.");
-        await mongoDb.updateProfile(ctx.userId, (profile) =>
+        await profileDb.update(ctx.userId, (profile) =>
         {
             profile.description = desc;
             profile.save().catch(err => console.error(err));
